@@ -1,2 +1,6 @@
 ### SublimeText php intel ###
 .phpintel
+
+### Composer ###
+composer.phar
+/vendor/
