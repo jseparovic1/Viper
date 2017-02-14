@@ -59,8 +59,9 @@ class Router
 			$controllerName = $splitControler[0];
 			$action = $splitControler[1];
 			return $this->callAction($controllerName, $action);
+		} else {
+			view('404');
 		}
-        throw new Exception('No route defined for this URI.');
 	}
 
 	/**
