@@ -1,4 +1,8 @@
 <?php
+namespace Viper\Core\Database;
+
+use PDO;
+use PDOException;
 
 /**
 * Connect to database

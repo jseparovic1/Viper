@@ -6,3 +6,4 @@
  */
 
 $router->get('' , 'PagesController@home');
+$router->get('users' , 'UsersController@index');

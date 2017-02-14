@@ -1,9 +1,11 @@
 <?php 
 
-require 'vendor/autoload.php';
-require 'helpers.php';
+require '../vendor/autoload.php';
 
-App::bind('config', require 'config.php');
+use Viper\Core\App;
+use Viper\Core\Database\{Connection,QueryBuilder};
+
+App::bind('config', require '../config.php');
 
 App::bind('database', new QueryBuilder(
 	Connection::make(App::get('config')['database'])

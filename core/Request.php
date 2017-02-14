@@ -1,4 +1,5 @@
 <?php
+namespace Viper\Core;
 
 /**
 * Getting user requests details

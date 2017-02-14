@@ -1,4 +1,7 @@
 <?php 
+namespace Viper\Core\Database;
+
+use PDO;
 
 /**
 * Builds query for database

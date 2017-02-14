@@ -1,5 +1,8 @@
 <?php 
-require 'core/bootstrap.php';
+
+require '../core/bootstrap.php';
+
+use Viper\Core\{Router,Request};
 
 /**
  * Load user defined route , and then direct user 
@@ -7,7 +10,7 @@ require 'core/bootstrap.php';
  *  load() static method loads routes and then returns an instance of Router
  *  direct() method returns path to controller for requested route e.g controllers/about.php
  */
- Router::load('routes.php')->direct(Request::uri(),Request::method());
+ Router::load('../app/routes.php')->direct(Request::uri(),Request::method());
 
 
 

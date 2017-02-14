@@ -1,4 +1,5 @@
 <?php
+namespace Viper\Core;
 
 class Router 
 {
@@ -69,6 +70,8 @@ class Router
 	 */
 	protected function callAction($controller, $action)
 	{
+		$controller = "App\Controllers\\{$controller}";
+
 		$controller = new $controller();
 		if (!method_exists($controller, $action)) {
 			throw new Exception("Method {$action} does not exist");

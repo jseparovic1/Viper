@@ -1,5 +1,8 @@
 <?php
 
+namespace App\Controllers;
+use Viper\Core\App;
+
 class UsersController
 {
 	/**
