@@ -2,8 +2,8 @@
 
 require '../vendor/autoload.php';
 
-use Viper\Core\App;
-use Viper\Core\Database\{Connection,QueryBuilder};
+use Viper\App;
+use Viper\Database\{Connection,QueryBuilder};
 
 App::bind('config', require '../config.php');
 

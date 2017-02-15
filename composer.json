@@ -1,6 +1,9 @@
 {
 	"autoload": {
-		"classmap" : ["./"],
+		"psr-4" : {
+			"Viper\\" : "core/",
+			"App\\" : "app/"
+		},
 		"files" : ["core/helpers.php"]
 	}
 }

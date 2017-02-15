@@ -1,5 +1,5 @@
 <?php
-namespace Viper\Core\Database;
+namespace Viper\Database;
 
 use PDO;
 use PDOException;

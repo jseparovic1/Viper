@@ -1,5 +1,5 @@
 <?php
-namespace Viper\Core;
+namespace Viper;
 
 class Router 
 {

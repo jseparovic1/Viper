@@ -2,7 +2,7 @@
 
 require '../core/bootstrap.php';
 
-use Viper\Core\{Router,Request};
+use Viper\{Router,Request};
 
 /**
  * Load user defined route , and then direct user 
