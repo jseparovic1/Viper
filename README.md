@@ -1,4 +1,11 @@
 # Viper
-Simple php MVC framework built as part of course "The PHP Practicioner"
+Simple php MVC framework built for learning purposes
 
-Course link : https://laracasts.com/series/php-for-beginners
+# Features
+- DI container
+- Simple Router
+- Query Builder 
+- Password Hashing
+- wrapper for $_GET and $_POST
+- one file configuration
+
