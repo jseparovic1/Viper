@@ -23,4 +23,28 @@ class Request
 	{
 		return $_SERVER["REQUEST_METHOD"];
 	}
+
+	/**
+     * Find user submitted get value by key
+     *
+     * @param $key
+     * @return value of get key
+     */
+    public static function get($key)
+    {
+        $value = $_GET[$key] ?? null;
+        return htmlspecialchars($value,ENT_QUOTES);
+    }
+
+    /**
+     * Find user submitted post value by key
+     * 
+     * @param $key
+     * @return post value
+     */
+    public static function post($key)
+    {
+        $value = $_POST[$key] ?? null;
+        return htmlspecialchars($value,ENT_QUOTES);
+    }
 }
