@@ -1,19 +1,22 @@
 <?php
 /**
- * Require view
- * @param  string $name views name
- * @param  array  $data data that is passed to view
+ * Require view.
+ *
+ * @param string $name views name
+ * @param array  $data data that is passed to view
  */
 function view($name, $data = [])
 {
-	extract($data);
-	return require "../app/views/{$name}.view.php";
+    extract($data);
+
+    return require "../app/views/{$name}.view.php";
 }
 /**
- * Redirects user to specific path
- * @param  string $path 
+ * Redirects user to specific path.
+ *
+ * @param string $path
  */
 function redirect($path)
 {
-	header("Location:{$path}");
+    header("Location:{$path}");
 }
