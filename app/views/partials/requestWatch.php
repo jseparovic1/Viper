@@ -1,2 +1,2 @@
-<h4>REQUEST_URI :	<?=$_SERVER["REQUEST_URI"]?></h4>
-<h4>METHOD :	<?= $_SERVER["REQUEST_METHOD"] ?></h4>
+<h4>REQUEST_URI :	<?=$_SERVER['REQUEST_URI']?></h4>
+<h4>METHOD :	<?= $_SERVER['REQUEST_METHOD'] ?></h4>
