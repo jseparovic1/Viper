@@ -1,6 +1,10 @@
 # Viper
 Simple php MVC framework built for learning purposes
 
+> Every developer should build their own framework and then never use it. 
+>
+> Ivo Andrić
+
 # Features
 - DI container
 - Simple Router
